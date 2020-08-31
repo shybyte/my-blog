@@ -13,7 +13,7 @@ function parseFullName(fullName: string): FullName {
 }
 ```
 
-(Actually the code wasn’t about first and personal names, but I changed the domain to protect the innocent.)
+(Actually the code wasn’t about personal names, but I changed the domain to protect the innocent.)
 
 This function has a bug.<br>
 And if you take your time, you’ll eventually spot the bug.<br>

@@ -1,5 +1,3 @@
-# Ideen
-
 # How to Prevent Bugs by Using Array Destructuring, Unused-Variables-Warnings and Radical Function Extraction
 
 ## An "Obvious" Bug

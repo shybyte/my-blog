@@ -105,7 +105,7 @@ In TypeScript this setting is called *noUnusedLocals*.
 
 ## Further Thoughts
 
-* Detecting code duplication automatically by a tool (for example, jscpd](https://github.com/kucherenko/jscpd/tree/master/packages/jscpd) sounds like a good idea, but leads in my experience to many false complains. This is especially the case when the limit of maximal duplication is set very low, which would be needed in our case.
+* Detecting code duplication automatically by a tool [for example jscpd](https://github.com/kucherenko/jscpd/tree/master/packages/jscpd) sounds like a good idea, but leads in my experience to many false complains. This is especially the case when the limit of maximal duplication is set very low, which would be needed in our case.
 * Is assigning the same complex expression to different attributes a code smell? Sounds easy to automate as a linter rule and would have caught our bug.
 * Should we consider indexed array access as a code smell? Especially when it's indexed by a constant? At least outside of numerical code?
 * Would a linter rule help to detected places where we should favor array destructuring? https://eslint.org/docs/rules/prefer-destructuring isn’t doing exactly what we want, but only works for direct assignments. However, it should be easy to develop a rule that does what we want. But would it be useful or produce too many false complains?

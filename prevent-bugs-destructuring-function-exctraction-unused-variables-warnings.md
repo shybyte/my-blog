@@ -1,6 +1,6 @@
 # Ideen
 
-# How to prevent Bugs by Using Array Destructuring, Unused-Variables-Warnings and Radical Function Extraction
+# How to Prevent Bugs by Using Array Destructuring, Unused-Variables-Warnings and Radical Function Extraction
 
 ## An "Obvious" Bug
 Recently I stumbled about the following code:

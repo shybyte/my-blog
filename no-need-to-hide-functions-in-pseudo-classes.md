@@ -95,7 +95,7 @@ export function parseFullName(serializedFullName: string): FullName {
 * More succinct call-site code
 * Less confusion because programmers seeing a class might expect a real class with some instance variables or something other more complex going on
 * Less confusion caused by the strange behavior of `this` in JavaScript
-* Can be more succinct and less error-prone composed for example, `fullNamesSerialized.map(parseFullName)` without problems resulting from `this` usage
+* Can be more succinct and less error-prone composed (for example `fullNamesSerialized.map(parseFullName)`) without problems resulting from `this` usage
 * Can be better minimized by JavaScript minimizers
 * A little bit faster
 

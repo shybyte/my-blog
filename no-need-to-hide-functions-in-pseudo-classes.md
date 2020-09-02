@@ -1,6 +1,6 @@
 # You Don't Need to Hide Your Functions in Pseudo Classes
 
-## Java Programmers Habits Won't Die?
+## Java Programmer's Habits Won't Die?
 
 Recently I stumbled about the following TypeScript module:
 

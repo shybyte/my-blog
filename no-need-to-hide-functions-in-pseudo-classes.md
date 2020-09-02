@@ -99,6 +99,10 @@ export function parseFullName(serializedFullName: string): FullName {
 * Can be better minimized by JavaScript minimizers
 * A little bit faster
 
+## Disadvantages of Using Simple Functions Instead of Pseudo Classes
+
+* Java programmers might be confused.
+
 ## Object-Oriented Alternative
 If you really insist in doing Object-oriented programming, I would recommend to create (or look for) real classes and attach the code to them.
 Maybe the `doSomething` from our first example belongs actually somewhere else?
